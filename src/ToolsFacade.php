@@ -1,12 +1,14 @@
 <?php
 
-namespace Tuezy\Core\Facades;
+namespace Tuezy;
 
 use Illuminate\Support\Facades\Facade;
+use Tuezy\Tools;
+
 /**
- * @see \Tuezy\Core\Core
+ * @see Tools
  */
-class Core extends Facade
+class ToolsFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -15,6 +17,6 @@ class Core extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'core';
+        return 'tools';
     }
 }
