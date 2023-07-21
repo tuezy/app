@@ -1,0 +1,25 @@
+{
+  "name": "tuezy/laravel-core",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vo Hoang Tu",
+      "email": "tuezy@koding.men"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Tuezy\\Core\\": "Core/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Tuezy\\Core\\Providers\\CoreServiceProvider"
+      ],
+      "aliases": { }
+    }
+  },
+  "minimum-stability": "dev"
+}
