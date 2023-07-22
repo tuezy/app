@@ -28,11 +28,6 @@
             "Tuezy\\Tests\\": "tests"
         }
     },
-    "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
-    },
     "config": {
         "sort-packages": true
     },
@@ -43,7 +38,7 @@
                 "Tuezy\\Core\\CoreServiceProvider"
             ],
             "aliases": {
-                "LaravelTools": "Tuezy\\LaravelToolsFacade"
+                "LaravelTools": "Tuezy\\ToolFacade"
             }
         }
     }

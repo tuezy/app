@@ -2,7 +2,7 @@
 
 namespace Tuezy;
 
-class Tools
+class Tool
 {
     // Build your next great package.
 }

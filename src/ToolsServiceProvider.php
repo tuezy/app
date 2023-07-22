@@ -4,7 +4,7 @@ namespace Tuezy;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelToolsServiceProvider extends ServiceProvider
+class ToolsServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -21,7 +21,7 @@ class LaravelToolsServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('tools.php'),
+                __DIR__.'/../config/config.php' => config_path('tool.php'),
             ], 'config');
 
             // Publishing the views.
@@ -50,11 +50,11 @@ class LaravelToolsServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'tools');
+        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'tool');
 
         // Register the main class to use with the facade
         $this->app->singleton('tools', function () {
-            return new Tools;
+            return new Tool();
         });
     }
 }
