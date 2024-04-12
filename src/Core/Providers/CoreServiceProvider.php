@@ -1,10 +1,10 @@
 <?php
-namespace Tuezy\Core\Providers;
+namespace App\Modules\Core\Providers;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use Tuezy\Core\Core;
-use Tuezy\Core\Facades\Core as CoreFacade;
+use App\Modules\Core\Core;
+use App\Modules\Core\Facades\Core as CoreFacade;
 
 class CoreServiceProvider extends ServiceProvider{
     public function boot(){

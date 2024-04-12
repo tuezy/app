@@ -8,7 +8,7 @@ if (! function_exists('core')) {
      */
     function core()
     {
-        return app()->make(\Tuezy\Core\Core::class);
+        return app()->make(\App\Modules\Core\Core::class);
     }
 }
 

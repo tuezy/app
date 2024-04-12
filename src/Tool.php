@@ -1,6 +1,6 @@
 <?php
 
-namespace Tuezy;
+namespace App\Modules;
 
 class Tool
 {

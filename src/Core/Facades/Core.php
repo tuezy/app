@@ -1,10 +1,10 @@
 <?php
 
-namespace Tuezy\Core\Facades;
+namespace App\Modules\Core\Facades;
 
 use Illuminate\Support\Facades\Facade;
 /**
- * @see \Tuezy\Core\Core
+ * @see \App\Modules\Core\Core
  */
 class Core extends Facade
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tuezy;
+namespace App\Modules;
 
 use Illuminate\Support\ServiceProvider;
 

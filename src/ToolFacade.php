@@ -1,9 +1,9 @@
 <?php
 
-namespace Tuezy;
+namespace App\Modules;
 
 use Illuminate\Support\Facades\Facade;
-use Tuezy\Tool;
+use App\Modules\Tool;
 
 /**
  * @see Tool

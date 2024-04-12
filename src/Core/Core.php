@@ -1,5 +1,5 @@
 <?php
-namespace Tuezy\Core;
+namespace App\Modules\Core;
 
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Config;
